@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .input-wrapper, .input-wrapper input, .input-wrapper textarea {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #4E4958;
+}
+
+h1, legend, footer .button {
+    font-family: "Staatliches", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+
+    text-shadow: 2px 2px 2px rgb(54, 54, 54);
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+legend{
+    color: #535971;
+    font-size: 24px;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    margin-top: 138px;
+
+    gap: 58px;
+}
+
+p {
+    width: 417px;
+}
+
+body {
+    background: #E5E5E5;
+
+    font-size: 14px;
+}
+
+body ::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #535971;
+}
+
+form {
+    background: #FFFFFF;
+
+    min-height: 300px;
+    width: 750px;
+
+    padding: 64px;
+
+    margin-top: 320px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.input-wrapper input, .input-wrapper textarea {
+    background: #FAFAFC;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+
+    height: 56px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    width: 100%;
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    width: 750px;
+    height: 160px;
+
+    background: #535971;
+
+    border-radius: 0 0 10px 10px;
+}
+
+footer .button {
+    background: #FF5374;
+
+    width: 608px;
+    height: 56px;
+
+    border: none;
+    border-radius: 20px;
+
+    margin: 52px 71px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper span {
+    color: #C1BCCC;
+    margin-left: 7px;
+}
+
+.column-3 {
+    display: flex;
+}
+
+.column-2 {
+    display: flex;
+    gap: 22px;
+}
