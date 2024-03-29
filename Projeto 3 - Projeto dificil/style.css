@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+legend {
+    font-family: "Staatliches", sans-serif;   
+}
+
+h1 {
+    font-family: "Staatliches", sans-serif;   
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+
+    width: 282px;
+    margin: 107px 579px 313px 579px;
+}
+
+p {
+    font-family: "Poppins", sans-serif; 
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+
+
+    width: 391px;
+
+    margin: 107px 579px 313px 579px;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    width: 282px;
+    height: 45px;
+}
+
+legend {
+    text-align: center;
+
+    font-size: 24px;
+}
+
+body {
+    background: #BFD7E4;
+
+    color: #4E4958;
+}
+
+body ::before {
+    content: '';
+    width: 100%;
+    height: 465px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #293241;
+
+    border-radius: 8px 8px 0 0;
+}
+
+form {
+    background: #FFFFFF;
+    margin-top: 310px;
+
+    width: 750px;
+
+    padding: 32px 64px;
+}
+
+form ::before {
+    content: '';
+    height: 133px;
+    margin-top: 332px;
+    width: 750px;
+
+    z-index: 0;
+    position: absolute;
+    background: #F67669;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 56px;
+}
+
+#mentorship-feedback {
+    height: 167px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-wrapper {
+    flex-direction:  column;
+    display: flex;
+}
+
+.input-wrapper input, .input-wrapper textarea {
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+
+    border-radius: 8px; 
+}
+
+footer {
+    width: 750px;
+    padding: 64px;
+
+    background: #FFFFFF;
+
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+    width: 622px;
+    height: 50px;
+
+    background: #F67669;
+    border: none;
+    border-radius: 8px;
+
+}
